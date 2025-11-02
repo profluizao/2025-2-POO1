@@ -29,5 +29,10 @@ public abstract class AbsPessoaFisica extends AbsIdentificador {
 
     public AbsPessoaFisica(int codigo, String nome, String cpf, String email){
         super(codigo);
+        //Tinha removido de propósito, pegadinha para Atividade A2.
+        //Quem baixou o código, tinha que codificar as linhas abaixo.
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
     }    
 }

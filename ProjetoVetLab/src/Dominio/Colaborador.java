@@ -20,5 +20,9 @@ public class Colaborador extends AbsPessoaFisica{
     public Colaborador(){
         super();
     }
-    
+    public Colaborador(int codigo, String nome, String cpf, String email, Double salario, String matricula) {
+        super(codigo, nome, cpf, email);
+        this.salario = salario;
+        this.matricula = matricula;
+    }
 }
